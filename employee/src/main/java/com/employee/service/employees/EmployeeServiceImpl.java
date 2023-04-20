@@ -17,9 +17,9 @@ import java.util.List;
 import java.util.Scanner;
 
 @Service
-public class EmployeeBusinessImpl implements EmployeeBusiness {
+public class EmployeeServiceImpl implements EmployeeService {
 
-    Logger logs = LoggerFactory.getLogger(EmployeeBusiness.class);
+    Logger logs = LoggerFactory.getLogger(EmployeeService.class);
     @Autowired
     private EmptyInputException emptyInputException;
     @Autowired

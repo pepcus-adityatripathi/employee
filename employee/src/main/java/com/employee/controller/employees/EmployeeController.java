@@ -1,7 +1,7 @@
 package com.employee.controller.employees;
 
 import com.employee.entity.employees.Employees;
-import com.employee.service.employees.EmployeeBusiness;
+import com.employee.service.employees.EmployeeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +19,7 @@ public class EmployeeController {
     Logger logs = LoggerFactory.getLogger(EmployeeController.class);
 
     @Autowired
-    private EmployeeBusiness employeeBusiness;
+    private EmployeeService employeeBusiness;
 
 
     @PostMapping("/")
